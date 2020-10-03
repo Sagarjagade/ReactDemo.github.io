@@ -1,0 +1,86 @@
+#header{
+    width: 100%;
+    height : 50%;
+    margin-top: 70px;
+}
+
+#header h1{
+    margin: 0 0 1px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+#header .brand-name{
+    color: cadetblue;
+}
+
+#header h2{
+    color: chocolate;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#header .btn-get-started
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: brown;
+    border: 2px solid brown;
+    display: inline-block;
+}
+
+#header .btn-get-started:hover{
+    background: cornflowerblue;
+    color: #fff;
+}
+
+.header-img{
+    text-align: center;
+}
+
+#header .animated
+{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+}
+
+@-webkit-keyframes up-down{
+    0%{
+            transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+}
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+@-webkit-keyframes up-down{
+    0%{
+            transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+}
+}
+
+@keyframes up-down{
+    0%{
+        transform: translate(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
